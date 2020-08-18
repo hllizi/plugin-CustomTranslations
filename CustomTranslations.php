@@ -43,6 +43,8 @@ class CustomTranslations extends \Piwik\Plugin
 
     public function getJsFiles(&$jsFiles)
     {
+        $jsFiles[] = "plugins/CustomTranslations/angularjs/uploadtranslations/uploadtranslations.controller.js";
+        $jsFiles[] = "plugins/CustomTranslations/angularjs/uploadtranslations/uploadtranslations.directive.js";
         $jsFiles[] = "plugins/CustomTranslations/angularjs/edittranslations/edittranslations.controller.js";
         $jsFiles[] = "plugins/CustomTranslations/angularjs/edittranslations/edittranslations.directive.js";
     }
