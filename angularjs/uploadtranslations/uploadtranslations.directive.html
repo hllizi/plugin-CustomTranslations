@@ -1,0 +1,17 @@
+<div class="uploadCustomTranslations">
+    <div piwik-content-block>
+        <div>
+            <h2>Upload translation file</h2>
+            Hieba sez: {{ uploadTranslations.bronto }}
+            <ul>
+                <li ng-repeat="bolaf in uploadTranslations.brolaf">
+                    {{ bolaf }}
+                </li>
+            </ul>
+            <form action="index.php?module=CustomTranslations&action=upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="translationFile" id="translationFile"></br>
+                <input class="btn" type="submit" name="submit">
+            </form>
+        </div>
+    </div>
+</div>
