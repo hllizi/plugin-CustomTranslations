@@ -25,8 +25,6 @@
         }
 
         function CustomTranslationsUpload(piwikApi, piwik, $filter) {
-            this.bronto = "Bromms";
-            this.brolaf = ["Bolch", "Bommes", "Roppel"];
         }
     }
 )();
